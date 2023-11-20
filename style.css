@@ -1,0 +1,19 @@
+body{
+    background-color: cyan;
+}
+
+.seconds, .minutes, .hours, .display, .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.display p{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button input{
+    width: 100px;
+    height: 30px;
+}
